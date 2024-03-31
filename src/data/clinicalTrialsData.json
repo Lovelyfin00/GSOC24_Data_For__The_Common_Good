@@ -1,0 +1,79 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is your name?",
+        "type": "text"
+      },
+      {
+        "id": 2,
+        "text": "What is your sex?",
+        "type": "select",
+        "options": [
+          { "value": "male", "label": "Male" },
+          { "value": "female", "label": "Female" }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Are you currently enrolled in a clinical trial?",
+        "type": "select",
+        "options": [
+          { "value": "yes", "label": "Yes" },
+          { "value": "no", "label": "No" }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "If yes, which one?",
+        "type": "text",
+        "conditional": {
+          "questionId": 3,
+          "value": "yes"
+        }
+      },
+      {
+        "id": 5,
+        "text": "What type of cancer are you interested in?",
+        "type": "text",
+        "sex": "both"
+      },
+      {
+        "id": 6,
+        "text": "What stage is your cancer?",
+        "type": "select",
+        "options": [
+          { "value": "early", "label": "Early Stage" },
+          { "value": "advanced", "label": "Advanced Stage" }
+        ],
+        "sex": "both"
+      },
+      {
+        "id": 7,
+        "text": "What treatment are you currently undergoing?",
+        "type": "text",
+        "sex": "both"
+      },
+      {
+        "id": 8,
+        "text": "Are you interested in clinical trials related to prostate cancer?",
+        "type": "select",
+        "options": [
+          { "value": "yes", "label": "Yes" },
+          { "value": "no", "label": "No" }
+        ],
+        "sex": "male"
+      },
+      {
+        "id": 9,
+        "text": "Are you interested in clinical trials related to breast cancer?",
+        "type": "select",
+        "options": [
+          { "value": "yes", "label": "Yes" },
+          { "value": "no", "label": "No" }
+        ],
+        "sex": "female"
+      }
+    ]
+  }
+  
