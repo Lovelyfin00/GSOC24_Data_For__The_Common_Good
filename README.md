@@ -4,7 +4,7 @@ This project is a demo of the code I submitted for the GSOC'24 project `Front-en
 
 ## Hosted Link
 
-The live URL for testing this out can be found [here]()
+The live URL for testing this out can be found [here](https://clinical-trial-matching.netlify.app/)
 
 ## Technologies Used
 
